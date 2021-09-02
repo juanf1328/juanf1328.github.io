@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+}
+body {
+    height:100%;
+    width: 100%;
+    background: url(https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  /*  filter: blur(8px);
+    -webkit-filter: blur(8px);*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.titulo {
+    font-size: 3rem;
+    color: #200A2A;
+    /*text-align: center;*/
+    cursor:default;
+}
+.webtextsuscriptores {
+    font-size: 1rem;
+    color: #140308;
+    /*text-align: center;*/
+    cursor: default;
+}
+.textbuscarsusc {
+    font-size: 2rem;
+    color: #200A2A;
+    /*text-align: left;*/
+    cursor: default;
+}
+.btn-secondary {
+    border-radius: 10000px;
+}
+.btn-outline-primary {
+    border-color: #140308;
+    background-color: #140308;
+    color:whitesmoke;
+}
+    .btn-outline-primary:hover {
+        background-color: whitesmoke;
+        border-color: whitesmoke;
+        border-width: 2px;
+        color: #140308;
+    }
+/*.datos{
+    text-align:center;
+}*/
+.textsuscribir {
+    font-size: 2rem;
+    color: #200A2A;
+    /*text-align: left;*/
+    cursor: default;
+}
+.animate__tada {
+    animation: animate__headShake; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
