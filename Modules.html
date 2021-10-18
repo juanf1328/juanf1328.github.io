@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<!-- <script type="text/javascript">   "Inline Script" De esta forma no conviene hacer porque si tenemos mas paginas tendriamos que ponerlo en sus html, no ahorrariamos codigo y contamina el espacio haciendo que puede que haya colisiones.
+		function a(){
+			alert('a')
+		}
+		function b(){
+			alert('b')
+		}
+		function c(){
+			alert('c')
+		}
+
+	</script> -->
+
+<!-- "script Tags"
+<script type="text/javascript" src="./1.js"></script>
+<script type="text/javascript" src="./2.js"></script>
+<script type="text/javascript" src="./3.js"></script>
+
+El problema es que si tenemos que agregar otra pagina hay que copiarlos a esa. Tambien la falta de resolucion de dependencia que puede pasar que no se cargue alguno. Y por ultimo no resuelve el problema de espacio de archivos.
+ -->
+
+<!--  IIFE, que significa expresion de funcion invocada inmediatamente (ver archivo modules.js) de esta forma no contamina. El orden de los archivos sigue siendo importante
+ -->
+<script src="bundle.js"></script>
+</body>
+</html>
