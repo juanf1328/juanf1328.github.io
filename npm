@@ -1,0 +1,11 @@
+Es un sitio web para buscar paquetes que contienen archivo javascript y json. este ultimo es un metarchivo.
+Se puede unir archivos para usar que hayan hecho otras personas. No todos los archivos son buenos y puede haber problemas ya que se puede hacer el archivo muy grande.
+Generalmente hay paquetes de front end y de comandos, tambien de node.js para usar en el back.
+
+Descargamos node.js, ir a la terminal y escribir = 'npm -v' para obtener el numero de la version.
+y con node -v tambien 
+luego escribir npm init para que se haga un archivo json
+json es un archivo.
+Tambien un repaso de como usar github y todos los comandos, asi como algun otro comando fuera de github por ejemplo para ver la ip de la computadora o de la red de wifi que son diferentes.
+la del wifi la toman todos los dispositivos conectados a ese wifi para poder comunicarse entre si. Por ejemplo de esta forma se podria pasar datos (fotos), desde el celu a la compu sin conectar el cable, es decir, usando el wifi.
+
