@@ -1,0 +1,30 @@
+npm install -g live-server
+te tira EACCES un error porque no se tiene permiso.
+sudo npm install -g live-server y agregar password.
+live-server crea un servidor falso, si se cambia algo del CSS lo detecta, lo ve y lo actualiza.
+http://127.0.0.1:8080 es lo mismo que localhost:8080.
+lodash es un paquete local que es una extension de javascript.
+npm install lodash para instalar.
+node_module es una carpeta donde esta lodash.
+import { without } from 'lodash';
+console.log(without)
+npm install -g browserify 
+sudo npm -g browserify
+
+var _ = require ('lodash')
+console.log(_);
+
+browserify script.js > bundle.js
+
+en el html en vez de script poner bundle.js
+
+var array = [1,2,4,5,6,7,8];
+console.log('answer:', _.without(array,3));
+
+dev dependenci es para desarrolladores, solo son usados por ellos.
+
+npm run test (lo que dice el script)
+
+"scripts":{
+"build": "browserify script.js > bundle.js && live_server"
+}
