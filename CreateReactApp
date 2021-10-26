@@ -1,0 +1,12 @@
+Vi como descargar git bash para windows.
+Como se puede cambiar la consola de comandos por ejemplo el color del fondo.
+La terminal es solo una forma de comunicacion con la computadora basada en texto.
+bash es solo una carcasa (shell), hay varias, otras de ellas son fish shell por ejemplo.
+si escribimos nano ~/.bash_profile abre nuestro perfil.
+en maketecheasier hay ejemplos que se pueden utilizar.
+despues si hacemos source ~/.bash_profile carga nuestro perfil.
+Un ejemplo de instalacion es yendo a la pagina de Homebrew y copiando lo que aparece en pantalla y llevandolo a la terminal se instala.
+si ponemos npx create-react-app my-app podemos empezar a crear nuestra app, despues le ponemos un nombre a nuestro proyecto.
+npx es un comando de npm install pero global, es un instalador de paquetes, por ejemplo un paquete como react que es ejecutable.
+
+
