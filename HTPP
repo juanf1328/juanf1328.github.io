@@ -1,0 +1,12 @@
+HTPP es un protocolo que nos permite recursos como documentos html, como su nombre lo indica, Protocolo de trasferencia de hipertexto.
+Nos permite conectarnos con servidores del mundo. Los clientes y servidores pueden conectarse mediante mensajes individuales. Los mensajes enviados por el cliente, por ejemplo del navegador web, se denominan solicitudes y los mensajes que envia el servidor serian las respuestas.
+Get, Post, Put, Delete.
+Get pide al servidor por ejemplo un HTML.
+Post seria enviar datos a los servidores de google por ejemplo y que los agrege a su base de datos.
+Put seria enviar datos y que se actualice lo que esta guardado en el servidor. 
+Delete es borrar.
+En twitter un ejemplo de get es el feed. Post seria crear un nuevo usuario y agregarlo a los servidores. Put seria hacer un tweet y editarlo y delete seria borrarlo o borrar una cuenta.
+El servidor te envia como respuesta un mensaje HTPP, por ejemplo 200 significa ok, 404 error not found, 300 redireccion, 500 que algo anda mal en el servidor. 
+Jugue con la consola un poco y probe los diferentes metodos y tambien con el primer formulario que aprendi a hacer en el curso. 
+El request se puede hacer un query string o con el body.
+El password seria visible hasta el momento y para que sea seguro hay que usar un HTTPS, es decir que el password de esta forma esta encriptada, solo el cliente y el servidor conocen el password. 
