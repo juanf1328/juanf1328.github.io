@@ -1,0 +1,11 @@
+JSON significa Javascript Object Notation, es una sintaxis para almacenar e intercambiar datos, es un texto que esta escrito con notacion de objeto javascript. 
+JSON.parse()
+var obj = JSON.parse('{"name"."john","age":30,"city":"new york"}');
+
+JSON.stringify()
+var myJSON = JSON.stringify(obj);
+
+Cualquier objeto Javascript se puede convertir en JSON y viceversa.
+
+Un ejemplo seria: El cliente manda a traves de un HTPP request, un JSON.stringify(user); a los servidores de google, los servidores lo leen y analizan y lo hace un JSON.parse(user); y entenderan el usuario y hace un response status code 200 devolviendolo, por ejemplo con una cuenta de plata devolveria un JSON.stringify(money); para que el navegador haga un JSON.parse(money); y obtener la variable.
+
