@@ -1,0 +1,50 @@
+Promise es un objeto que puede producir un valor unico en algun momento. Puede estar en 3 posibles estados, cumplido, rechazado o pendiente.
+
+
+el.addEventListener("click", submitForm);
+
+//callback pyramid of doom
+movePlayer(100,'left', function(){
+	movePlayer(400, 'left', function(){
+	movePlayer(10, 'right', function(){
+	movePlayer(330, 'left', function(){
+		});
+	   });
+	});
+});
+
+
+con Promise: 
+movePlayer(100, 'left')
+.then(() => movePlayer(400, 'left'))
+.then(() => movePlayer(10, 'right'))
+.then(() => movePlayer(330, 'left'))
+
+
+Con las callbacks se obtendra esta funcion que creara esta piramide de codigo muy complicado.
+
+Ejemplo con twitter:
+
+grabTweets('twitter/juancito', (error, juancitoTweets) => {
+	if(error) {
+	throw Error;
+	}
+	displayTweets(juancitoTweets)
+	grabTweets('twitter/elonmusk', (error, elonTweets) => {
+	if(error){
+	throw Error;
+	}
+	displayTweets(elonTweets)
+	grabTweets('twitter/duki', (error, dukiTweets) => {
+	if(error) {
+	throw Error;
+	}
+	displayTweets(dukiTweets)
+
+	})
+	
+  })
+
+
+	
+})
